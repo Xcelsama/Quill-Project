@@ -1,0 +1,2 @@
+- [x] Fix index.html nav structure, links, img src, and CSS href
+- [x] Add CSS for nav bar in style.css
