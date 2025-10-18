@@ -16,7 +16,7 @@ POPPINS
 PRIMARY 
 Base #339af0 (Skyblue)
 Tint #d8ebff (Artic)
-Shade #1e7ed6 (Deep sea)
+Shade #1c7ed6 (Deep sea)
 
 SECONDARY
 Base : #9775fa (Lavendar)
@@ -119,9 +119,17 @@ ul{
     font-size:16px;
     text-decoration:none;
 }
-.btn-primary{
-    color:#339af0;
+.btn-primary:link, .btn-primary:visited{
+  color:#339af0;
 }
-.btn-secondary{
+.btn-primary:hover, .btn primary:active{
+    color:#1c7ed6;
+}
+
+.btn-secondary:link, .btn-secondary:visited{
     color:#9775fa;
- }   
+}
+
+.btn-secondary:hover, .btn-secondary:visited{
+    color:#784868;
+}
